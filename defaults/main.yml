@@ -10,7 +10,7 @@ outline_port: 3000
 outline_url: "http://localhost:{{ outline_public_port }}"
 outline_force_https: "false"
 outline_enable_updates: "false"
-outline_cdn_url: 
+outline_cdn_url:
 
 outline_debug: "cache,presenters,events,emails,mailer,utils,multiplayer,server,services"
 
@@ -25,6 +25,7 @@ oidc_client_secret:
 oidc_auth_uri:
 oidc_token_uri:
 oidc_userinfo_uri:
+oidc_display_name: "OpenID"
 
 outline_google_client_id:
 outline_google_client_secret:
