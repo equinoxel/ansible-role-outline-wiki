@@ -56,7 +56,7 @@
     - configuration
 
 - name: Ensure all requested components are running.
-  community.docker.docker_compose:
+  community.docker.docker_compose_v2:
     project_src: "{{ outline_setup_path | expanduser | realpath }}"
     build: false
   become: false
